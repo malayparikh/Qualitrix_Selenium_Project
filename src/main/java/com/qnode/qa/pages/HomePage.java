@@ -42,15 +42,19 @@ public class HomePage {
 		myAccountDropMenu.click();
 	}
 	
-	public void selectLoginOption() {
+	//New Change
+	
+	public LoginPage selectLoginOption() {
 		
 		loginOption.click();
+		return new LoginPage(driver);
 		
 	}
 	
-	public void selectRegisterOption() {
+	public RegisterPage selectRegisterOption() {
 		
 		registerOption.click();
+		return new RegisterPage(driver);
 	}
 	
 public void clickOnSearchButton() {

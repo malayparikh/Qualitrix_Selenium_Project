@@ -3,17 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="qnodelogintestcases.Login">
+      <class name="qnodelogintestcases.Register">
         <methods>
+          <include name="setUp"/>
+          <include name="verifyRegisterAccountWithoutProvidingDetails"/>
           <include name="generateStatus"/>
           <include name="getnameMethod"/>
-          <include name="verifyLoginWithoutCredentials"/>
+          <include name="verifyRegisterWithAllFields"/>
+          <include name="tearDown"/>
           <include name="InitExentReport"/>
           <include name="generateReports"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="verifyRegisterAccountWithExistingEmail"/>
         </methods>
-      </class> <!-- qnodelogintestcases.Login -->
+      </class> <!-- qnodelogintestcases.Register -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

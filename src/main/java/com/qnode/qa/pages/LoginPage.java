@@ -45,9 +45,10 @@ public class LoginPage {
 
 	}
 
-	public void clickOnLoginButton() {
+	public AccountPage clickOnLoginButton() {
 
 		loginButton.click();
+		return new AccountPage(driver);
 
 	}
 	

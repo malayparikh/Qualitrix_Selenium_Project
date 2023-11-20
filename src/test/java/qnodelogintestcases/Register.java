@@ -13,6 +13,8 @@ import com.qnodetestingproject.base.Base;
 import com.qnodetestingproject.util.Utilities;
 
 public class Register extends Base {
+	
+	RegisterPage registerPage;
 
 	public Register() {
 
@@ -25,11 +27,10 @@ public class Register extends Base {
 	public void setUp() {
 
 		driver = initializeBrowserAndOpenApplication(prop.getProperty("browserName"));
-
 		HomePage homePage = new HomePage(driver);
 
 		homePage.clickOnMyAccount();
-		homePage.selectRegisterOption();
+		registerPage = homePage.selectRegisterOption();
 
 	}
 
@@ -45,7 +46,7 @@ public class Register extends Base {
 
 	{
 
-		RegisterPage registerPage = new RegisterPage(driver);
+		//RegisterPage registerPage = new RegisterPage(driver);
 
 		registerPage.enterFirstNameText("demouser22");
 		registerPage.enterLastNameText("demolastname");
@@ -67,7 +68,7 @@ public class Register extends Base {
 	@Test(priority = 2)
 	public void verifyRegisterWithAllFields() {
 
-		RegisterPage registerPage = new RegisterPage(driver);
+		//RegisterPage registerPage = new RegisterPage(driver);
 
 		registerPage.enterFirstNameText("demouser22");
 		registerPage.enterLastNameText("demolastname");
@@ -88,7 +89,7 @@ public class Register extends Base {
 	@Test(priority = 3)
 	public void verifyRegisterAccountWithExistingEmail() {
 
-		RegisterPage registerPage = new RegisterPage(driver);
+		//RegisterPage registerPage = new RegisterPage(driver);
 		registerPage.enterFirstNameText("John");
 		registerPage.enterLastNameText("Paul");
 		registerPage.emailAddressText("demousermalay@gmail.com");
@@ -107,7 +108,7 @@ public class Register extends Base {
 	@Test(priority = 4)
 	public void verifyRegisterAccountWithoutProvidingDetails() {
 
-		RegisterPage registerPage = new RegisterPage(driver);
+		//RegisterPage registerPage = new RegisterPage(driver);
 		registerPage.clickOnContinueButton();
 
 		String actualPrivacyWarning = registerPage.retrivePrivacyPolicyWarning();

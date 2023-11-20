@@ -17,6 +17,9 @@ import com.qnodetestingproject.util.Utilities;
 
 public class Login extends Base {
 	
+	LoginPage loginPage;
+	AccountPage accountPage;
+	
 	public Login() {
 		super();
 	}
@@ -32,7 +35,9 @@ public class Login extends Base {
 		HomePage homePage = new HomePage(driver);
 		
 		homePage.clickOnMyAccount();
-		homePage.selectLoginOption();
+		//homePage.selectLoginOption();  // New Change
+		
+		 loginPage = homePage.selectLoginOption();
 		
 		
 	}
@@ -49,13 +54,13 @@ public class Login extends Base {
 	@Test(priority=1, dataProvider = "validCredentialSuppy" )
 	public void verifyLoginWithValidCredentials(String email, String password) {
 		
-		LoginPage loginPage = new LoginPage(driver);
-		AccountPage accountPage = new AccountPage(driver);
+		//LoginPage loginPage = new LoginPage(driver);  New Change
+		//AccountPage accountPage = new AccountPage(driver);
 		
 	
 		loginPage.enterEmailAddress(email);
 		loginPage.enterPassword(password);
-		loginPage.clickOnLoginButton();
+		accountPage=loginPage.clickOnLoginButton();
 		
 		Assert.assertTrue(accountPage.getDisplayStatusOfEditYourAccountInformation());
 	
@@ -77,7 +82,7 @@ public class Login extends Base {
 	@Test(priority=2)
 	public void verifyLoginWithInvalidCredentials() {
 		
-		LoginPage loginPage = new LoginPage(driver); 
+		//LoginPage loginPage = new LoginPage(driver); 
 		
 		loginPage.enterEmailAddress(Utilities.generateEmailWithTimeStamp());
 		loginPage.enterPassword("1234567");
@@ -91,7 +96,7 @@ public class Login extends Base {
 	@Test(priority=3)
 	public void verifyLoginWithInvalidEmailAndValidPassword() {
 		
-		LoginPage loginPage = new LoginPage(driver);
+		//LoginPage loginPage = new LoginPage(driver);
 		
 		
 		loginPage.enterEmailAddress(Utilities.generateEmailWithTimeStamp());
@@ -108,7 +113,7 @@ public class Login extends Base {
 	@Test(priority=4)
 	public void verifyLoginWithValidEmailAndInvalidPassword() {
 		
-		LoginPage loginPage = new LoginPage(driver);
+		//LoginPage loginPage = new LoginPage(driver);
 		
 		
 		loginPage.enterEmailAddress(prop.getProperty("validEmail"));
@@ -123,7 +128,7 @@ public class Login extends Base {
 	@Test(priority=5)
 	public void verifyLoginWithoutCredentials() {
 		
-		LoginPage loginPage = new LoginPage(driver);
+		//LoginPage loginPage = new LoginPage(driver);
 		
 		loginPage.clickOnLoginButton();
 		String actualWarningMessage = loginPage.retriveEmailPasswordNotMatchingWarningMessage();
