@@ -11,10 +11,10 @@ import com.qnode.qa.pages.HomePage;
 import com.qnode.qa.pages.SearchPage;
 import com.qnodetestingproject.base.Base;
 
-public class Search extends Base {
+public class SearchTest extends Base {
 	
 
-	public Search() {
+	public SearchTest() {
 		super();
 	}
 	

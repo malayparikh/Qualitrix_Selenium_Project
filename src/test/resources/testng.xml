@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+	<listeners>
+		<listener class-name="com.qnode.qa.listeners.MyListeners"></listener>
+	</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="qnodelogintestcases.Register"/>
-      <class name="qnodelogintestcases.Login"/>
-      <class name="qnodelogintestcases.Search"/>
+      <class name="qnodelogintestcases.RegisterTest"/>
+      <class name="qnodelogintestcases.LoginTest"/>
+      <class name="qnodelogintestcases.SearchTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

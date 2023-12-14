@@ -15,12 +15,12 @@ import com.qnodetestingproject.util.Utilities;
 
 
 
-public class Login extends Base {
+public class LoginTest extends Base {
 	
 	LoginPage loginPage;
 	AccountPage accountPage;
 	
-	public Login() {
+	public LoginTest() {
 		super();
 	}
 	

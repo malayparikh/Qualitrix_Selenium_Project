@@ -12,11 +12,11 @@ import com.qnode.qa.pages.RegisterPage;
 import com.qnodetestingproject.base.Base;
 import com.qnodetestingproject.util.Utilities;
 
-public class Register extends Base {
+public class RegisterTest extends Base {
 	
 	RegisterPage registerPage;
 
-	public Register() {
+	public RegisterTest() {
 
 		super();
 	}

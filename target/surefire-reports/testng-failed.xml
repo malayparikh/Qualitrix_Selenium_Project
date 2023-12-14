@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.qnode.qa.listeners.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="qnodelogintestcases.SearchTest">
+        <methods>
+          <include name="verifySearchWihoutProduct"/>
+          <include name="getnameMethod"/>
+          <include name="generateStatus"/>
+          <include name="tearDown"/>
+          <include name="generateReports"/>
+          <include name="InitExentReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- qnodelogintestcases.SearchTest -->
+      <class name="qnodelogintestcases.LoginTest">
+        <methods>
+          <include name="generateStatus"/>
+          <include name="getnameMethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="generateReports"/>
+          <include name="InitExentReport"/>
+          <include name="verifyLoginWithoutCredentials"/>
+        </methods>
+      </class> <!-- qnodelogintestcases.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

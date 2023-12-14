@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="qnodelogintestcases.SearchTest">
+        <methods>
+          <include name="verifySearchWihoutProduct"/>
+          <include name="generateStatus"/>
+          <include name="getnameMethod"/>
+          <include name="tearDown"/>
+          <include name="InitExentReport"/>
+          <include name="generateReports"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- qnodelogintestcases.SearchTest -->
+      <class name="qnodelogintestcases.LoginTest">
+        <methods>
+          <include name="generateStatus"/>
+          <include name="setup"/>
+          <include name="getnameMethod"/>
+          <include name="tearDown"/>
+          <include name="InitExentReport"/>
+          <include name="generateReports"/>
+          <include name="verifyLoginWithoutCredentials"/>
+        </methods>
+      </class> <!-- qnodelogintestcases.LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

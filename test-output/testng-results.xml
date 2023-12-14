@@ -1,144 +1,538 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="6" total="19" passed="11" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-20T16:38:59 IST" name="Default suite" finished-at="2023-11-20T16:39:33 IST" duration-ms="34285">
+  <suite started-at="2023-12-14T16:08:26 IST" name="Suite" finished-at="2023-12-14T16:10:11 IST" duration-ms="105477">
     <groups>
     </groups>
-    <test started-at="2023-11-20T16:38:59 IST" name="Default test" finished-at="2023-11-20T16:39:33 IST" duration-ms="34285">
-      <class name="qnodelogintestcases.Register">
-        <test-method is-config="true" signature="InitExentReport()[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:38:58 IST" name="InitExentReport" finished-at="2023-11-20T16:38:59 IST" duration-ms="384" status="PASS">
+    <test started-at="2023-12-14T16:08:26 IST" name="Test" finished-at="2023-12-14T16:10:11 IST" duration-ms="105477">
+      <class name="qnodelogintestcases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:09:42 IST" name="setup" finished-at="2023-12-14T16:09:47 IST" duration-ms="4383" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InitExentReport -->
-        <test-method is-config="true" signature="getnameMethod(org.testng.ITestContext)[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:38:59 IST" name="getnameMethod" finished-at="2023-11-20T16:38:59 IST" duration-ms="8" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:09:47 IST" name="verifySearchWithValidProduct" finished-at="2023-12-14T16:09:47 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:09:47 IST" name="tearDown" finished-at="2023-12-14T16:09:48 IST" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:09:48 IST" name="generateStatus" finished-at="2023-12-14T16:09:48 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5696c927]]>
+                <![CDATA[public void qnodelogintestcases.SearchTest.verifySearchWithValidProduct()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifySearchWithValidProduct status=SUCCESS method=SearchTest.verifySearchWithValidProduct()[pri:1, instance:qnodelogintestcases.SearchTest@6892b3b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateStatus -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:09:48 IST" name="setup" finished-at="2023-12-14T16:09:53 IST" duration-ms="4537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithNonExistProduct()[pri:2, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:09:53 IST" name="verifySearchWithNonExistProduct" finished-at="2023-12-14T16:09:53 IST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNonExistProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:09:53 IST" name="tearDown" finished-at="2023-12-14T16:09:55 IST" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:09:55 IST" name="generateStatus" finished-at="2023-12-14T16:09:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qnodelogintestcases.SearchTest.verifySearchWithNonExistProduct()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifySearchWithNonExistProduct status=SUCCESS method=SearchTest.verifySearchWithNonExistProduct()[pri:2, instance:qnodelogintestcases.SearchTest@6892b3b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateStatus -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:09:55 IST" name="setup" finished-at="2023-12-14T16:09:59 IST" duration-ms="4599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWihoutProduct()[pri:3, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:09:59 IST" name="verifySearchWihoutProduct" finished-at="2023-12-14T16:10:10 IST" duration-ms="10812" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //p[contains(text(),'There is no product that matches the search criteria.')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3a9614ce-2dbc-4e32-b1e7-05e1e5570264, findElement {using=xpath, value=//p[contains(text(),'There is no product that matches the search criteria.')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:47948, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3280, moz:profile: C:\Users\MITTAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47948/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3a9614ce-2dbc-4e32-b1e7-05e1e5570264]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //p[contains(text(),'There is no product that matches the search criteria.')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3a9614ce-2dbc-4e32-b1e7-05e1e5570264, findElement {using=xpath, value=//p[contains(text(),'There is no product that matches the search criteria.')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:47948, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3280, moz:profile: C:\Users\MITTAL~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47948/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3a9614ce-2dbc-4e32-b1e7-05e1e5570264
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy21.getText(Unknown Source)
+at com.qnode.qa.pages.SearchPage.retriveNoProductMessageText(SearchPage.java:33)
+at qnodelogintestcases.SearchTest.verifySearchWihoutProduct(SearchTest.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWihoutProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:10:10 IST" name="tearDown" finished-at="2023-12-14T16:10:11 IST" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.SearchTest@6892b3b6]" started-at="2023-12-14T16:10:11 IST" name="generateStatus" finished-at="2023-12-14T16:10:11 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qnodelogintestcases.SearchTest.verifySearchWihoutProduct()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifySearchWihoutProduct status=FAILURE method=SearchTest.verifySearchWihoutProduct()[pri:3, instance:qnodelogintestcases.SearchTest@6892b3b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateStatus -->
+      </class> <!-- qnodelogintestcases.SearchTest -->
+      <class name="qnodelogintestcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:00 IST" name="setup" finished-at="2023-12-14T16:09:05 IST" duration-ms="5395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:05 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialSuppy" finished-at="2023-12-14T16:09:06 IST" duration-ms="865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demousermalay@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:06 IST" name="tearDown" finished-at="2023-12-14T16:09:07 IST" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:07 IST" name="generateStatus" finished-at="2023-12-14T16:09:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qnodelogintestcases.LoginTest.verifyLoginWithValidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithValidCredentials status=SUCCESS method=LoginTest.verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:qnodelogintestcases.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateStatus -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:07 IST" name="setup" finished-at="2023-12-14T16:09:13 IST" duration-ms="5185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:13 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialSuppy" finished-at="2023-12-14T16:09:13 IST" duration-ms="756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demouser1@gmail1.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:13 IST" name="tearDown" finished-at="2023-12-14T16:09:15 IST" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:15 IST" name="generateStatus" finished-at="2023-12-14T16:09:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qnodelogintestcases.LoginTest.verifyLoginWithValidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithValidCredentials status=SUCCESS method=LoginTest.verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:qnodelogintestcases.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateStatus -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:15 IST" name="setup" finished-at="2023-12-14T16:09:20 IST" duration-ms="5058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:20 IST" name="verifyLoginWithInvalidCredentials" finished-at="2023-12-14T16:09:20 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:20 IST" name="tearDown" finished-at="2023-12-14T16:09:22 IST" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:22 IST" name="generateStatus" finished-at="2023-12-14T16:09:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qnodelogintestcases.LoginTest.verifyLoginWithInvalidCredentials()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=SUCCESS method=LoginTest.verifyLoginWithInvalidCredentials()[pri:2, instance:qnodelogintestcases.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateStatus -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:22 IST" name="setup" finished-at="2023-12-14T16:09:27 IST" duration-ms="5018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:27 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2023-12-14T16:09:27 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:27 IST" name="tearDown" finished-at="2023-12-14T16:09:28 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:28 IST" name="generateStatus" finished-at="2023-12-14T16:09:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qnodelogintestcases.LoginTest.verifyLoginWithInvalidEmailAndValidPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidEmailAndValidPassword status=SUCCESS method=LoginTest.verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:qnodelogintestcases.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateStatus -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:28 IST" name="setup" finished-at="2023-12-14T16:09:33 IST" duration-ms="5052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:33 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2023-12-14T16:09:34 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:34 IST" name="tearDown" finished-at="2023-12-14T16:09:35 IST" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:35 IST" name="generateStatus" finished-at="2023-12-14T16:09:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qnodelogintestcases.LoginTest.verifyLoginWithValidEmailAndInvalidPassword()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithValidEmailAndInvalidPassword status=SUCCESS method=LoginTest.verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:qnodelogintestcases.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateStatus -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:35 IST" name="setup" finished-at="2023-12-14T16:09:40 IST" duration-ms="5177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithoutCredentials()[pri:5, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:40 IST" name="verifyLoginWithoutCredentials" finished-at="2023-12-14T16:09:41 IST" duration-ms="486" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at qnodelogintestcases.LoginTest.verifyLoginWithoutCredentials(LoginTest.java:138)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:41 IST" name="tearDown" finished-at="2023-12-14T16:09:42 IST" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.LoginTest@6d4d66d2]" started-at="2023-12-14T16:09:42 IST" name="generateStatus" finished-at="2023-12-14T16:09:42 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void qnodelogintestcases.LoginTest.verifyLoginWithoutCredentials()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithoutCredentials status=FAILURE method=LoginTest.verifyLoginWithoutCredentials()[pri:5, instance:qnodelogintestcases.LoginTest@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateStatus -->
+      </class> <!-- qnodelogintestcases.LoginTest -->
+      <class name="qnodelogintestcases.RegisterTest">
+        <test-method is-config="true" signature="InitExentReport()[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:25 IST" name="InitExentReport" finished-at="2023-12-14T16:08:26 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitExentReport -->
+        <test-method is-config="true" signature="getnameMethod(org.testng.ITestContext)[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:26 IST" name="getnameMethod" finished-at="2023-12-14T16:08:26 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1fe05fff]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getnameMethod -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:38:59 IST" name="setUp" finished-at="2023-11-20T16:39:06 IST" duration-ms="6987" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:26 IST" name="setUp" finished-at="2023-12-14T16:08:34 IST" duration-ms="7937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithMandatoryFields()[pri:1, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:06 IST" name="verifyRegisterWithMandatoryFields" finished-at="2023-11-20T16:39:07 IST" duration-ms="1136" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryFields()[pri:1, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:34 IST" name="verifyRegisterWithMandatoryFields" finished-at="2023-12-14T16:08:35 IST" duration-ms="1237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:07 IST" name="tearDown" finished-at="2023-11-20T16:39:08 IST" duration-ms="1278" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:35 IST" name="tearDown" finished-at="2023-12-14T16:08:36 IST" duration-ms="1215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:08 IST" name="generateStatus" finished-at="2023-11-20T16:39:08 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:36 IST" name="generateStatus" finished-at="2023-12-14T16:08:36 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void qnodelogintestcases.Register.verifyRegisterWithMandatoryFields()]]>
+                <![CDATA[public void qnodelogintestcases.RegisterTest.verifyRegisterWithMandatoryFields()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=verifyRegisterWithMandatoryFields status=SUCCESS method=Register.verifyRegisterWithMandatoryFields()[pri:1, instance:qnodelogintestcases.Register@74e28667] output={null}]]]>
+                <![CDATA[[TestResult name=verifyRegisterWithMandatoryFields status=SUCCESS method=RegisterTest.verifyRegisterWithMandatoryFields()[pri:1, instance:qnodelogintestcases.RegisterTest@1e6a3214] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateStatus -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:08 IST" name="setUp" finished-at="2023-11-20T16:39:14 IST" duration-ms="5403" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:36 IST" name="setUp" finished-at="2023-12-14T16:08:41 IST" duration-ms="5083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithAllFields()[pri:2, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:14 IST" name="verifyRegisterWithAllFields" finished-at="2023-11-20T16:39:15 IST" duration-ms="1465" status="PASS">
+        <test-method signature="verifyRegisterWithAllFields()[pri:2, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:41 IST" name="verifyRegisterWithAllFields" finished-at="2023-12-14T16:08:43 IST" duration-ms="1465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithAllFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:15 IST" name="tearDown" finished-at="2023-11-20T16:39:16 IST" duration-ms="1269" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:43 IST" name="tearDown" finished-at="2023-12-14T16:08:44 IST" duration-ms="1346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:16 IST" name="generateStatus" finished-at="2023-11-20T16:39:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:44 IST" name="generateStatus" finished-at="2023-12-14T16:08:44 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void qnodelogintestcases.Register.verifyRegisterWithAllFields()]]>
+                <![CDATA[public void qnodelogintestcases.RegisterTest.verifyRegisterWithAllFields()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=verifyRegisterWithAllFields status=SUCCESS method=Register.verifyRegisterWithAllFields()[pri:2, instance:qnodelogintestcases.Register@74e28667] output={null}]]]>
+                <![CDATA[[TestResult name=verifyRegisterWithAllFields status=SUCCESS method=RegisterTest.verifyRegisterWithAllFields()[pri:2, instance:qnodelogintestcases.RegisterTest@1e6a3214] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateStatus -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:16 IST" name="setUp" finished-at="2023-11-20T16:39:23 IST" duration-ms="6341" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:44 IST" name="setUp" finished-at="2023-12-14T16:08:50 IST" duration-ms="5489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterAccountWithExistingEmail()[pri:3, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:23 IST" name="verifyRegisterAccountWithExistingEmail" finished-at="2023-11-20T16:39:24 IST" duration-ms="1201" status="PASS">
+        <test-method signature="verifyRegisterAccountWithExistingEmail()[pri:3, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:50 IST" name="verifyRegisterAccountWithExistingEmail" finished-at="2023-12-14T16:08:51 IST" duration-ms="1285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountWithExistingEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:24 IST" name="tearDown" finished-at="2023-11-20T16:39:25 IST" duration-ms="1234" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:51 IST" name="tearDown" finished-at="2023-12-14T16:08:52 IST" duration-ms="1256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:25 IST" name="generateStatus" finished-at="2023-11-20T16:39:25 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:52 IST" name="generateStatus" finished-at="2023-12-14T16:08:52 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void qnodelogintestcases.Register.verifyRegisterAccountWithExistingEmail()]]>
+                <![CDATA[public void qnodelogintestcases.RegisterTest.verifyRegisterAccountWithExistingEmail()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=verifyRegisterAccountWithExistingEmail status=SUCCESS method=Register.verifyRegisterAccountWithExistingEmail()[pri:3, instance:qnodelogintestcases.Register@74e28667] output={null}]]]>
+                <![CDATA[[TestResult name=verifyRegisterAccountWithExistingEmail status=SUCCESS method=RegisterTest.verifyRegisterAccountWithExistingEmail()[pri:3, instance:qnodelogintestcases.RegisterTest@1e6a3214] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateStatus -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:25 IST" name="setUp" finished-at="2023-11-20T16:39:31 IST" duration-ms="6046" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:52 IST" name="setUp" finished-at="2023-12-14T16:08:57 IST" duration-ms="5256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterAccountWithoutProvidingDetails()[pri:4, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:31 IST" name="verifyRegisterAccountWithoutProvidingDetails" finished-at="2023-11-20T16:39:32 IST" duration-ms="458" status="PASS">
+        <test-method signature="verifyRegisterAccountWithoutProvidingDetails()[pri:4, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:57 IST" name="verifyRegisterAccountWithoutProvidingDetails" finished-at="2023-12-14T16:08:58 IST" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountWithoutProvidingDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:32 IST" name="tearDown" finished-at="2023-11-20T16:39:33 IST" duration-ms="1378" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:58 IST" name="tearDown" finished-at="2023-12-14T16:08:59 IST" duration-ms="1330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:33 IST" name="generateStatus" finished-at="2023-11-20T16:39:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="generateStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:08:59 IST" name="generateStatus" finished-at="2023-12-14T16:08:59 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void qnodelogintestcases.Register.verifyRegisterAccountWithoutProvidingDetails()]]>
+                <![CDATA[public void qnodelogintestcases.RegisterTest.verifyRegisterAccountWithoutProvidingDetails()]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=verifyRegisterAccountWithoutProvidingDetails status=SUCCESS method=Register.verifyRegisterAccountWithoutProvidingDetails()[pri:4, instance:qnodelogintestcases.Register@74e28667] output={null}]]]>
+                <![CDATA[[TestResult name=verifyRegisterAccountWithoutProvidingDetails status=SUCCESS method=RegisterTest.verifyRegisterAccountWithoutProvidingDetails()[pri:4, instance:qnodelogintestcases.RegisterTest@1e6a3214] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateStatus -->
-        <test-method is-config="true" signature="generateReports()[pri:0, instance:qnodelogintestcases.Register@74e28667]" started-at="2023-11-20T16:39:33 IST" name="generateReports" finished-at="2023-11-20T16:39:34 IST" duration-ms="1146" status="PASS">
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:qnodelogintestcases.RegisterTest@1e6a3214]" started-at="2023-12-14T16:10:11 IST" name="generateReports" finished-at="2023-12-14T16:10:12 IST" duration-ms="1138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReports -->
-      </class> <!-- qnodelogintestcases.Register -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- qnodelogintestcases.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
